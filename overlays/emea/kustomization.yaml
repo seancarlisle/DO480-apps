@@ -3,6 +3,9 @@ kind: Kustomization
 bases:
 - ../../base
 
+resources:
+- route-emea.yaml
+
 nameSuffix: "-emea"
 images:
 - name: mysql
