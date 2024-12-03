@@ -3,6 +3,9 @@ kind: Kustomization
 bases:
 - ../../base
 
+resources:
+- route-apac.yaml
+
 nameSuffix: "-apac"
 
 images:
